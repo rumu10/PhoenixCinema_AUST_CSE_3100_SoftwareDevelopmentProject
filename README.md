@@ -4,6 +4,7 @@ PhoenixCinema. It's a movie theatre website.Where you can find out ongoing,comin
 their information such as release date,IMDB rating,casts etc.You can also book ticket of your desire movie.
 
 Tool: Sublime Text3, wamp server 3.0.6
+
 Language: php, HTML5, CSS
 
 to run ->localhost/PhoenixCinema/PhoenixCinema.php (N.B. You have to copy and paste PhoenixCinema folder under wamp64/www folder)
