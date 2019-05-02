@@ -1,0 +1,662 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.slider{
+	overflow: hidden;
+	height: 350px;
+	width: 100%;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure img{
+	width:65.3%;
+    float:left;
+	margin-left:235px;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%;
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: -200%;
+	}
+
+	82%{
+		left: -200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+
+	100%{
+		left: 0%;
+	}
+}
+
+#header {
+
+	border: 1px none;
+	height: 130px;
+	width: 950px;
+	margin: auto;
+	background-color:#2d8659;
+	/*background-image: url(images/loginbg.jpg);*/
+}
+
+#headertext1 {
+
+	font-size:50px;
+	font-style: bold;
+	margin-left: 1.9em;
+	padding-top: .5em;
+	color: white;
+	font-family: "chiller";
+	
+	
+}
+
+#logo {
+
+	display: inline-block;
+	margin-top: -78px;
+	margin-left: -928px;
+}
+
+#header_film {
+	float: left;
+	margin-left: 550px;
+}
+
+#headertext2 {
+
+	
+	padding-top: 3px;
+	color:#80002a;
+	float: left;
+	margin-top: 10px;
+	font-family: "MV Boli";
+	font-size: 19px;
+
+
+}
+
+#menu {
+
+	height: 60px;
+	margin-left: 200px;
+
+}
+
+
+#menu ul {
+
+	list-style: none;
+}
+
+#menu ul li {
+
+	float: left;
+	color: white;
+	line-height: 60px;
+	text-align: center;
+
+	background-color:#0d0d0d;
+	width: 134px;
+	height: 60px;
+	position: relative;
+
+	border-right: 2px solid black;
+}
+
+#menu ul li a {
+
+	color: white;
+	display: block;
+	font-size: 17px;
+	border-radius: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+#menu ul li a:hover {
+	background-color: green;
+}
+
+#menu ul li ul  {
+	position: absolute;
+	display: none;
+}
+
+#menu ul li ul li {
+	border-bottom: 1px solid black;
+	opacity: .9;
+}
+
+#menu ul li:hover ul {
+	display: block;
+}
+#menu ul li:hover  ul li{
+	display: block;
+	background-color:none;
+	z-index: 1;
+}
+
+body {
+	
+	 background-image: url(images/loginbg.jpg);
+}
+
+.img{
+	margin-top:-80px;
+	margin-right: 1200px;
+}
+
+#body {
+	border: 1px solid white;
+	height:350px;
+	width: 950px;
+	margin: auto;
+	background-color:black;
+	opacity: .9;
+}
+
+#nextArrival {
+
+	border: 1px ;
+	height: 50px;
+	width: 305px;
+	background-color: #4CAF50;
+	display: inline-block;
+	align-content: center;
+	border-radius: 8px;
+}
+
+#naText a{
+ 
+	border: none;
+	color: white;
+	padding: 15px;
+	margin-left: 70px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+	width: 300px;
+	height: 50px;
+}
+
+#NowShowing {
+
+	border: 1px ;
+	height: 50px;
+	width: 305px;
+	background-color: #4CAF50;
+	display: inline-block;
+	align-content: center;
+	margin-left:20px;
+	border-radius: 8px;
+}
+
+#nsText a{
+ 
+	 border: none;
+	 color: white;
+	 padding: 15px;
+	 margin-left: 70px;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 25px;
+	 cursor: pointer;
+	 width: 300px;
+	 height: 50px;
+}
+
+#Archive {
+
+	border: 1px ;
+	height: 50px;
+	width: 305px;
+	background-color: #4CAF50;
+	float: right;
+	border-radius: 8px;
+}
+
+ #aText a{
+ 
+ 	border: none;
+    color: white;
+    padding: 15px;
+   	margin-left: 70px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+#NextArrivalimage {
+
+	border: 2px solid white;
+	height: 200px;
+	width: 300px;
+	background-color: #660033;
+	display: inline-block;
+	align-content: center;
+}
+
+#naimage1 {
+	height: 200px;
+	width: 150px;
+	background-image: url(images/War.jpg);
+	display: inline-block;
+}
+
+#naimage2 {
+
+	height: 200px;
+	width: 150px;
+	background-image: url(images/ascendant_small.png);
+	float: right;
+}
+
+#NowShowingimage {
+
+	border: 2px solid white;
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+	align-content: center;
+	margin-left:20px;
+}
+
+
+#nsimage1 {
+
+	height: 200px;
+	width: 150px;
+	background-image: url(images/wonderwomansmall.png);
+	display: inline-block;
+}
+
+#nsimage2 {
+
+	height: 200px;
+	width: 150px;
+	background-image: url(images/Nabab1.jpg);
+	float: right;
+}
+
+#Archiveimage {
+
+	border: 2px solid white ;
+	height: 200px;
+	width: 300px;
+	float: right;
+	background-image: url(images/avater.jpg);
+}
+
+#arcimage1 {
+	
+	height: 200px;
+	width: 150px;
+	background-image: url(images/superbean.jpg);
+	display: inline-block;
+}
+
+#arcimage2 {
+
+	height: 200px;
+	width: 150px;
+	background-image: url(images/logan.jpg);
+	float: right;
+}
+
+#nextArrivalshowtime {
+
+	border: 1px ;
+	height: 40px;
+	width: 300px;
+	background-color: #4CAF50;
+	display: inline-block;
+	align-content: center;
+	margin-top: 35px;
+	border-radius: 15px;
+}
+
+#timetext1 a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+     margin-top: 7px;
+    margin-left: 110px;
+}
+
+#NowShowingshowtime {
+
+	border: 1px ;
+	height: 40px;
+	width: 300px;
+	background-color: #4CAF50;
+	display: inline-block;
+	align-content: center;
+	margin-left:20px;
+	border-radius: 15px;
+}
+
+#timetext2 a{
+ 
+ 	border: none;
+    color: white;
+   	margin-top: 7px;
+    margin-left: 110px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+#Archiveshowtime {
+
+	border-radius:15px;
+	height: 40px;
+	width: 300px;
+	background-color: #4CAF50;
+	float: right;
+	margin-top: 25px;
+}
+
+#timetext3 a {
+ 
+ 	border: none;
+    color: white;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 110px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+
+#downinfo {
+
+
+
+	background-color: #262626;
+
+	width: 100%;
+	height: 500px; 
+	position: absolute;
+	margin-top: 50px;
+}
+
+#downinfo div.header {
+
+height: 30px;
+width: 300px;
+margin-left: 90px;
+margin-top:40px;
+ position: relative;
+ float: left;
+
+
+}
+
+#downinfo div#headline1 {
+
+text-align: center;
+color: white;
+font-size: 20px;
+
+
+}
+
+#headline1 strong {
+margin-left: -30px;
+	
+}
+
+#downinfo div#headline2 {
+
+text-align: center;
+color: white;
+font-size: 20px;
+
+}
+
+
+
+#downinfo div#headline3 {
+
+text-align: center;
+color: white;
+font-size: 20px;
+}
+
+
+
+#downinfo div.content {
+height:350px;
+width: 300px;
+margin-left:100px;
+
+margin-top: 40px;
+float: left;
+
+}
+
+
+#downinfo div#col1 {
+
+
+
+
+
+}
+
+#col1 p {
+
+	color: white;
+
+}
+
+#col1 a {
+
+      color: #4d4dff;
+      font-size: 22px;
+
+}
+
+#col1 span {
+
+	color:  #a6a6a6;
+}
+
+#downinfo div#col2 {
+
+
+
+	
+}
+
+#col2 ul {
+
+
+color: white;
+
+
+
+}
+
+#col2 hr {
+
+	border: .1px dotted #404040;
+	
+}
+
+#downinfo div#col3 {
+
+
+
+	
+}
+
+#col3 ul {
+
+
+color: white;
+
+
+
+
+}
+
+#col3 hr {
+
+	border: .1px dotted #404040;
+}
+
+
+
+
+#footer {
+
+	border: none;
+	width: 100%;
+}
+
+footer {
+	font-size: 20px;
+	padding: 1em;
+	text-align: center;
+	background-color: grey;
+	margin-top: 550px;
+	text-align: left;
+	box-sizing: 100%;
+}
+
+#f1 {
+	display: inline-block;
+}
+
+.fa {
+	display: inline-block;
+	float: right;
+    font-size: 30px;
+    width: 25px;
+    padding: 6px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa: hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+  	background: #dd4b39;
+  	color: white;
+}
+
+.fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+}
+
+.fa-youtube {
+  	background: #bb0000;
+  	color: white;
+}
